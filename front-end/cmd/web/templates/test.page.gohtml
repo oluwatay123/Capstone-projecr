@@ -10,7 +10,7 @@
                 <a id="authBrokerBtn" class="btn btn-outline-secondary" href="javascript:void(0)">Test auth</a>
                 <a id="mailBtn" class="btn btn-outline-secondary" href="javascript:void(0)">Test email</a>
                 <a id="logBtn" class="btn btn-outline-secondary" href="javascript:void(0)">Test log</a>
-                <a id="logGBtn" class="btn btn-outline-secondary" href="javascript:void(0)">Test gRPC log</a>
+                <a id="logGBtn" class="btn btn-outline-secondary" href="javascript:void(0)" style="color: crimson;">Test gRPC log</a>
                 <div id="output" class="mt-5" style="outline: 1px solid silver; padding: 2em;">
                     <span class="text-muted">Output shows here...</span>
                 </div>
@@ -115,8 +115,8 @@
             const payload = {
                 action: "auth",
                 auth: {
-                    email: "trevor.sawler@gmail.com",
-                    password: "verysecret",
+                    email:"trevor.sawler@gmail.com",
+                    password:"verysecret"
                 }
             }
 
